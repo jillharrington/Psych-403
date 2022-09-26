@@ -8,7 +8,7 @@
 4. Yes python follows order of operations
 ## variable exercises
 1.
-'''
+```
 letter1='J'
 letter2='i'
 letter3='l'
@@ -16,4 +16,4 @@ print(letter1)
 print(letter2)
 print(letter3)
 print(letter3)
-'''
+```
