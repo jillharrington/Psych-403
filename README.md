@@ -61,6 +61,19 @@ mixnums=np.array([3,4.2,11.1,8.9,24,17])
 print(mixnums)
 ```
 When printed python seperated the list and stated the type as a list of floats
-
-
-
+2.
+```
+mixtypes=np.array([15,17,'fish','blue',8.88,19.7])
+print(mixtypes)
+```
+Python lists this array type as an array of strings but doesn't seperate it the same way it did the previous array
+3.
+```
+oddarray=np.arange(1,100,2)
+print(oddarray)
+```
+4.
+```
+logarray=np.linspace(1,5,16)
+print(logarray)
+```
