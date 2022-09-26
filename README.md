@@ -7,3 +7,12 @@
 3. Using ** will put one variable to the power of another variable, for example 2**3 will be 2 to the power of 3 or 2x2x2.  // will give you the answer to a division problem as a float rather than an integer, rounding to the nearest whole number.
 4. Yes python follows order of operations
 ## variable exercises
+1. '''
+letter1='J'
+letter2='i'
+letter3='l'
+print(letter1)
+print(letter2)
+print(letter3)
+print(letter3)
+'''
