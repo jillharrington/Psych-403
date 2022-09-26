@@ -32,3 +32,35 @@ print(1==1.0 and not "1"=="1.0" or 5==(3+2))
 print(1==1.0 and not "1"=="1.0" and 5==(3+2))
 print(1==1.0 or not "1"=="1.0" or not 5==(3+2))
 ```
+## List Exercises
+1. Yes oddlist became a variable
+2. 
+```
+oddlist=[1,3,5,7,9]
+print(oddlist)
+```
+3. It has a length of 5
+4. It is a list variable
+5. 
+```
+intlist=list(range(100))
+print(intlist)
+```
+## Dictionary Exercises
+1.
+```
+about_me = {'name':'Jill', 'age':23, 'year of study':4.0, 'favourite foods': 'fish&chips, icecream, and tea'}
+print(about_me)
+```
+2. Python states the length as 4, based on the number of variables within the dictionary.
+## Array Exercises
+1.
+```
+import numpy as np
+mixnums=np.array([3,4.2,11.1,8.9,24,17])
+print(mixnums)
+```
+When printed python seperated the list and stated the type as a list of floats
+
+
+
