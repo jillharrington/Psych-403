@@ -20,4 +20,3 @@ print(numarr*2)
 ```
 Whereas multiplying a list creates a double of that list (in problem 1 the output was 1,2,3,1,2,3), multiplying an array multiplies all the numbers within that array, so the new output is 2,4,6
 3.
-```
