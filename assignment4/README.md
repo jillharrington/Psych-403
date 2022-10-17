@@ -32,3 +32,47 @@ for name in letters:
     print(name)
     print("this letter has an index of %i" %count)
 ```
+3/4. I have tried for so long and I cannot figure this question out
+## While Loop Exercises
+1.
+```
+time_counter=0
+while time_counter < 10:
+    print("image1.png")
+    time_counter = time_counter+1
+    if time_counter == 10:
+        break
+time_counter = 10
+while time_counter < 20:
+    print("image2.png")
+    time_counter = time_counter+1
+    if time_counter == 20:
+        break
+```
+2.
+```
+import random
+response = False
+iteration = 0
+while response == False:
+    iteration = iteration + 1
+    print("showing an image for %i iterations" %iteration)
+    if random.randint(0,10) == 1 or 2:
+        response = True
+```
+This code is not running the way I want it to but I don't know how to fix it.
+3.
+```
+import random
+response = False
+iteration = 0
+failsafe = -1
+while response == False:
+    failsafe = failsafe+1
+    if failsafe == 5:
+        break
+    iteration = iteration+1
+    print("showing an image for %i iterations" %iteration)
+    if random.randint(0,10) == 1 or 2:
+        response = True
+```
